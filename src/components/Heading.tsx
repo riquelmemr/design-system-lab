@@ -2,13 +2,13 @@ import { Slot } from '@radix-ui/react-slot'
 import { ReactNode } from 'react'
 import { clsx } from 'clsx'
 
-export interface TextProps {
+export interface HeadingProps {
     size?: 'sm' | 'md' | 'lg';
     children: ReactNode;
     asChild?: boolean;
 }
 
-export function Text({ size = 'md', children, asChild }: TextProps) {
+export function Heading({ size = 'md', children, asChild }: HeadingProps) {
     const Comp = asChild ? Slot : 'h2'
 
     return (

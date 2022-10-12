@@ -3,7 +3,7 @@ module.exports = {
   content: [
     './src/**/*.tsx',
   ],
-  
+
   theme: {
     fontSize: {
       xs: 14,
@@ -15,6 +15,9 @@ module.exports = {
     },
 
     colors: {
+      black: '#000',
+      white: '#FFF',
+
       'grey-900': '#121214',
       'grey-800': '#202024',
       'grey-400': '#7c7c8a',
