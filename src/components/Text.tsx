@@ -1,6 +1,6 @@
-import { Slot } from '@radix-ui/react-slot';
+import { Slot } from '@radix-ui/react-slot'
 import { ReactNode } from 'react'
-import { clsx } from 'clsx';
+import { clsx } from 'clsx'
 
 export interface TextProps {
     size?: 'sm' | 'md' | 'lg';
