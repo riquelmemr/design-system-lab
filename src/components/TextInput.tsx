@@ -1,7 +1,6 @@
 import { InputHTMLAttributes, ReactNode } from 'react';
 import { Slot } from '@radix-ui/react-slot'
 
-
 export interface TextInputRootProps {
     children: ReactNode;
 }
@@ -21,7 +20,8 @@ export interface TextInputInputProps extends InputHTMLAttributes<HTMLInputElemen
 
 function TextInputInput(props: TextInputInputProps) {
     return (
-        <input className='bg-transparent flex-1 text-grey-100 text-xs placeholder:text-grey-400 outline-none' {...props} />
+        <input className='bg-transparent flex-1 text-grey-100 text-xs placeholder:text-grey-400 outline-none' 
+        {...props} />
     )
 }
 
