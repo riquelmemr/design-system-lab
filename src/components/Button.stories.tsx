@@ -10,6 +10,5 @@ export default {
     argTypes: {}
 } as Meta<ButtonProps>
 
-
 // Variations in Storybook
 export const Default: StoryObj<ButtonProps> = {}
