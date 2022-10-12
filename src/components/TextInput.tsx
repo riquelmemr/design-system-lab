@@ -1,4 +1,3 @@
-import { clsx } from 'clsx'
 import { InputHTMLAttributes, ReactNode } from 'react';
 import { Slot } from '@radix-ui/react-slot'
 
@@ -27,7 +26,6 @@ function TextInputInput(props: TextInputInputProps) {
 }
 
 TextInputInput.displayName = 'TextInput.Input'
-
 
 
 export interface TextInputIconProps {

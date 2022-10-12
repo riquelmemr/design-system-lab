@@ -9,14 +9,14 @@ export interface TextProps {
 }
 
 export function Text({ size = 'md', children, asChild }: TextProps) {
-    const Comp = asChild ? Slot : 'h2'
+    const Comp = asChild ? Slot : 'span'
 
     return (
-        <Comp className={clsx('text-grey-100 font-bold font-sans',
+        <Comp className={clsx('text-grey-100 font-sans',
             {
-                'text-lg': size === 'sm',
-                'text-xl': size === 'md',
-                'text-2xl': size === 'lg',
+                'text-xs': size === 'sm',
+                'text-sm': size === 'md',
+                'text-md': size === 'lg',
             }
         )}>
             {children}
