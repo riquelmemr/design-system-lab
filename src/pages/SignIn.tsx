@@ -75,7 +75,7 @@ export function SignIn() {
 
             <footer className='flex flex-col items-center gap-4 mt-8'>
                 <Text asChild size='sm'>
-                    <a href="" className='text-grey-400 underline hover:text-grey-200'>Esqueceu sua senha</a>
+                    <a href="" className='text-grey-400 underline hover:text-grey-200'>Esqueceu sua senha?</a>
                 </Text>
                 <Text asChild size='sm'>
                     <a href="" className='text-grey-400 underline hover:text-grey-200'>Não possui conta? Crie uma agora</a>
