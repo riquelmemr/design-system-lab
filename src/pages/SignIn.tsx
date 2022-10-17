@@ -16,7 +16,7 @@ export function SignIn() {
 
         await axios.post('/sessions', {
             email: 'riquelmemaia2@gmail.com',
-            password:'12345678'
+            password: '12345678'
         })
 
         setIsUserSignedIn(true)

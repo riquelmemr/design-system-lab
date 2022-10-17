@@ -17,8 +17,8 @@ export default {
                         message: 'Login realizado!'
                     }))
                 })
-            ]
-        }
+            ],
+        },
     }
 } as Meta
 
