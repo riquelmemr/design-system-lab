@@ -1,6 +1,5 @@
 import { Checkbox } from "../components/Checkbox";
-import { Envelope, Password } from "phosphor-react";
-import { Lock } from "phosphor-react"
+import { Envelope, Lock } from "phosphor-react";
 import { Button } from "../components/Button";
 import { Heading } from "../components/Heading";
 import { TextInput } from "../components/TextInput";
